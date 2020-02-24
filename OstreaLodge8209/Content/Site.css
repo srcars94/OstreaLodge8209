@@ -22,3 +22,63 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.navbar-inverse {
+    background-color: midnightblue !important;
+    border: none;
+}
+
+.nav.navbar-nav li a {
+    color: white;
+}
+
+.nav.navbar-nav a:hover {
+    color: antiquewhite;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+    .navbar-brand a:hover {
+        color: antiquewhite !important;
+    }
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: midnightblue;
+}
+
+.nav.navbar-nav li a {
+    color: white;
+    background-color: midnightblue;
+}
+
+.writingStlyeHeader {
+    padding-left: 457px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.headerStyle {
+    font-size: 65px;
+    color: black;
+    font-family: Arial;
+}
+
+.subHeaderStyle {
+    font-size: 40px;
+    color: gray;
+    font-family: Arial;
+    display: inline-block;
+    text-align: center;
+}
+
+.subHeaderStyleDiv {
+    text-align: center;
+}
+
+p {
+    margin-left: 550px;
+    margin-right: 50px;
+    margin-top: 20px;
+}

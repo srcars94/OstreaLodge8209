@@ -6,10 +6,12 @@ using System.Web.Mvc;
 
 namespace OstreaLodge8209.Controllers
 {
-    public class HomeController : Controller
+    public class MembersController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Members()
         {
+            ViewBag.Message = "Your contact page.";
+
             return View();
         }
     }
